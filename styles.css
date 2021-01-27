@@ -1,0 +1,131 @@
+/* ===================== GLOBAL =================== */
+:root{
+    --dark-blue: #173c74;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f0f2f5;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    width: min(90vw, 800px);
+    margin:auto;
+}
+
+/* ===================== TITLE ==================== */
+
+h2 {
+margin-top: 3.2rem;
+margin-bottom: 0.8rem;
+color: var(--dark-blue);
+font-weight: normal;
+}
+/* ===================== CARDS==================== */
+
+.card {
+background-color: white;
+padding: 1.5rem 2rem;
+border-radius: 0.25rem;
+margin-bottom: 2rem;
+}
+
+.card h3 {
+    font-weight: normal;
+}
+
+.card p {
+    font-size: 2rem;
+}   
+
+.card.total{
+background: #173c74;
+color: white;
+}
+
+/* ===================== HEADER ==================== */
+
+header {
+    background: #173c74;
+    padding: 2rem 0 10rem ;
+    text-align: center;
+}
+
+#logo {
+color: #fff;
+font-weight: 100;
+}
+
+/* ===================== BALANCE =================== */
+
+#balance {
+    margin-top: -8rem;
+}
+
+#balance h2{
+    color: white;
+    text-align: center;
+}
+/* =================== TRANSACTION ================= */
+
+#transaction {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+#data-table {
+    width: 100%;
+    border-spacing: 0 0.5rem;
+}
+
+table thead th {
+    background-color: white;
+    padding: 1rem 2rem;
+    border-radius: 0.25rem;
+    color: #969cb3;
+    font-weight: normal;
+}
+
+table tbody tr {
+    opacity: 0.7
+}
+
+table tbody tr:hover {
+    opacity: 1.0
+}
+
+table tbody td {
+    background-color: white;
+    padding: 0.5rem 0 0.5rem 0;
+    border-radius: 0.25rem;
+}
+
+td.description {
+color: var(--dark-blue);
+}
+
+td.income {
+    color: #12a454
+}
+
+td.expenses {
+    color: #e92929;
+}
+
+
+/* ===================== FOOTER =================== */
+footer {
+    text-align: center;
+    padding: 4rem 0 2rem;
+    background-color: #173c74;
+    color: white;
+}
+
+footer p{
+    font-weight: normal;
+}
